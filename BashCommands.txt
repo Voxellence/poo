@@ -1,1 +1,13 @@
 Bash Commands
+
+Create a new text file with some text in it:
+echo "Some text" > NewTextFile.txt
+
+Verify it was created by showing its contents:
+cat NewTextFile.txt
+
+Append more text to the file:
+echo "Some more text" >> NewTextFile.txt
+
+echo prints a newline, and the >> tells the shell to append that newline to the file, creating it if it doesn't already exist.
+
